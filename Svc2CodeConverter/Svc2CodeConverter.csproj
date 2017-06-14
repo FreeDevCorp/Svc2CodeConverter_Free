@@ -64,9 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeBuilder\GlobalConfig.cs" />
-    <Compile Include="CodeBuilder\Enginer\CSharpGeneration.cs" />
-    <Compile Include="CodeBuilder\Enginer\WsdlExstender.cs" />
-    <Compile Include="CodeBuilder\Exemple\AbstractIndentedTextWriter.cs" />
+    <Compile Include="CodeBuilder\Engine\CSharpGeneration.cs" />
+    <Compile Include="CodeBuilder\Engine\WsdlExstender.cs" />
+    <Compile Include="CodeBuilder\Example\AbstractIndentedTextWriter.cs" />
     <Compile Include="CodeBuilder\GenerateBuild.cs" />
     <Compile Include="CodeBuilder\Model\GroupClass.cs" />
     <Compile Include="CodeBuilder\Model\WsdlModel.cs" />
@@ -78,7 +78,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Trash\TreeNode.cs" />
-    <Compile Include="CodeBuilder\Exemple\WsdlDocumentationImporter.cs" />
+    <Compile Include="CodeBuilder\Example\WsdlDocumentationImporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
